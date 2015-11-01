@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="main">
+      <UniqueIdentifier>{0a95bc4d-2c29-4bcc-9143-00f351ae49a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Comm">
+      <UniqueIdentifier>{920d3cbd-e0c5-401f-b899-9611333f4e59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{10c44e5a-a794-4efd-a1d3-348d7a3142ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Process">
+      <UniqueIdentifier>{753a05fd-66dc-41ee-9467-e2dcc650ca54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Version">
+      <UniqueIdentifier>{8628cad4-b5d4-4e2d-a28f-86e5cd6ce79c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hash">
+      <UniqueIdentifier>{792a9097-dc18-4403-8194-516de3c2cc38}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Driver\main.c">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Driver\Comm.c">
+      <Filter>Comm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Driver\Utils.c">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Driver\Process.c">
+      <Filter>Process</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Driver\Version.c">
+      <Filter>Version</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Driver\hash.c">
+      <Filter>hash</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Driver\makefile" />
+    <None Include="..\Driver\sources" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Driver\Comm.h">
+      <Filter>Comm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Driver\CommEx.h">
+      <Filter>Comm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Driver\Utils.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Driver\Process.h">
+      <Filter>Process</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Driver\Version.h">
+      <Filter>Version</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Driver\struct.h" />
+    <ClInclude Include="..\Driver\hash.h">
+      <Filter>hash</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

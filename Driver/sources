@@ -1,0 +1,12 @@
+TARGETNAME=RkExposer
+#TARGETPATH=$(BASEDIR)\lib
+TARGETPATH=..\Bin\Driver\Win32Debug
+TARGETTYPE=DRIVER
+
+INCLUDES=.\
+
+SOURCES=main.c	\
+Comm.c			\
+Utils.c			\
+Process.c
+
