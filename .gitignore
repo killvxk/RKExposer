@@ -11,7 +11,7 @@
 !*.vcxproj.filters
 !*.vcxproj.user
 !*.cmd
-!*.suo
+#!*.suo
 !makefile
 !sources
 !*.def
